@@ -3,27 +3,43 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		040EDB30283F5A720010385A /* OrderListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040EDB2F283F5A720010385A /* OrderListViewController.swift */; };
 		042BD9CF2836972500088991 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042BD9CE2836972500088991 /* AppDelegate.swift */; };
 		042BD9D12836972500088991 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042BD9D02836972500088991 /* SceneDelegate.swift */; };
-		042BD9D32836972500088991 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042BD9D22836972500088991 /* ViewController.swift */; };
 		042BD9D62836972500088991 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 042BD9D42836972500088991 /* Main.storyboard */; };
 		042BD9D82836972600088991 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 042BD9D72836972600088991 /* Assets.xcassets */; };
 		042BD9DB2836972600088991 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 042BD9D92836972600088991 /* LaunchScreen.storyboard */; };
+		042BD9E3283770BA00088991 /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042BD9E2283770BA00088991 /* MenuTableViewController.swift */; };
+		042BD9E5283770CC00088991 /* DrinkMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042BD9E4283770CC00088991 /* DrinkMenu.swift */; };
+		042BD9E7283772BD00088991 /* DrinkMenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042BD9E6283772BD00088991 /* DrinkMenuTableViewCell.swift */; };
+		042BD9E92837760A00088991 /* NetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042BD9E82837760A00088991 /* NetworkController.swift */; };
+		04AA93DD283B1CA7006B7E9F /* OptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AA93DC283B1CA7006B7E9F /* OptionViewController.swift */; };
+		04AA93DF283B23D6006B7E9F /* DrinkOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AA93DE283B23D6006B7E9F /* DrinkOption.swift */; };
+		04DF4A76283F2127002D923B /* OrderListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DF4A75283F2127002D923B /* OrderListTableViewCell.swift */; };
+		04E6E4D0283D19F0004DC8D5 /* OrderList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E6E4CF283D19F0004DC8D5 /* OrderList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		040EDB2F283F5A720010385A /* OrderListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListViewController.swift; sourceTree = "<group>"; };
 		042BD9CB2836972500088991 /* drinkOrderPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = drinkOrderPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		042BD9CE2836972500088991 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		042BD9D02836972500088991 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		042BD9D22836972500088991 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		042BD9D52836972500088991 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		042BD9D72836972600088991 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		042BD9DA2836972600088991 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		042BD9DC2836972600088991 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		042BD9E2283770BA00088991 /* MenuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
+		042BD9E4283770CC00088991 /* DrinkMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkMenu.swift; sourceTree = "<group>"; };
+		042BD9E6283772BD00088991 /* DrinkMenuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkMenuTableViewCell.swift; sourceTree = "<group>"; };
+		042BD9E82837760A00088991 /* NetworkController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkController.swift; sourceTree = "<group>"; };
+		04AA93DC283B1CA7006B7E9F /* OptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionViewController.swift; sourceTree = "<group>"; };
+		04AA93DE283B23D6006B7E9F /* DrinkOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkOption.swift; sourceTree = "<group>"; };
+		04DF4A75283F2127002D923B /* OrderListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListTableViewCell.swift; sourceTree = "<group>"; };
+		04E6E4CF283D19F0004DC8D5 /* OrderList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +74,53 @@
 			children = (
 				042BD9CE2836972500088991 /* AppDelegate.swift */,
 				042BD9D02836972500088991 /* SceneDelegate.swift */,
-				042BD9D22836972500088991 /* ViewController.swift */,
 				042BD9D42836972500088991 /* Main.storyboard */,
+				042BD9EB283776D700088991 /* Other Controllers */,
+				042BD9EA283776C900088991 /* Models */,
+				042BD9EC283776F200088991 /* Views */,
+				042BD9ED283776FD00088991 /* Controllers */,
 				042BD9D72836972600088991 /* Assets.xcassets */,
 				042BD9D92836972600088991 /* LaunchScreen.storyboard */,
 				042BD9DC2836972600088991 /* Info.plist */,
 			);
 			path = drinkOrderPractice;
+			sourceTree = "<group>";
+		};
+		042BD9EA283776C900088991 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				042BD9E4283770CC00088991 /* DrinkMenu.swift */,
+				04E6E4CF283D19F0004DC8D5 /* OrderList.swift */,
+				04AA93DE283B23D6006B7E9F /* DrinkOption.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		042BD9EB283776D700088991 /* Other Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				042BD9E82837760A00088991 /* NetworkController.swift */,
+			);
+			path = "Other Controllers";
+			sourceTree = "<group>";
+		};
+		042BD9EC283776F200088991 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				04DF4A75283F2127002D923B /* OrderListTableViewCell.swift */,
+				042BD9E6283772BD00088991 /* DrinkMenuTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		042BD9ED283776FD00088991 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				040EDB2F283F5A720010385A /* OrderListViewController.swift */,
+				04AA93DC283B1CA7006B7E9F /* OptionViewController.swift */,
+				042BD9E2283770BA00088991 /* MenuTableViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -103,7 +159,7 @@
 				};
 			};
 			buildConfigurationList = 042BD9C62836972500088991 /* Build configuration list for PBXProject "drinkOrderPractice" */;
-			compatibilityVersion = "Xcode 13.0";
+			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -138,9 +194,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				042BD9D32836972500088991 /* ViewController.swift in Sources */,
+				042BD9E7283772BD00088991 /* DrinkMenuTableViewCell.swift in Sources */,
 				042BD9CF2836972500088991 /* AppDelegate.swift in Sources */,
+				04E6E4D0283D19F0004DC8D5 /* OrderList.swift in Sources */,
+				042BD9E92837760A00088991 /* NetworkController.swift in Sources */,
 				042BD9D12836972500088991 /* SceneDelegate.swift in Sources */,
+				04AA93DD283B1CA7006B7E9F /* OptionViewController.swift in Sources */,
+				040EDB30283F5A720010385A /* OrderListViewController.swift in Sources */,
+				04AA93DF283B23D6006B7E9F /* DrinkOption.swift in Sources */,
+				042BD9E3283770BA00088991 /* MenuTableViewController.swift in Sources */,
+				042BD9E5283770CC00088991 /* DrinkMenu.swift in Sources */,
+				04DF4A76283F2127002D923B /* OrderListTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
